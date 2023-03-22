@@ -17,8 +17,6 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        
     }
 
     @IBAction func saveButtonPressed(_ sender: UIButton) {
@@ -27,16 +25,8 @@ class ViewController: UIViewController {
             self.userId = userId
             performSegue(withIdentifier: "dataTransfer", sender: nil)
         }else{
-            let alert = UIAlertController(title: "Error", message: "Please fill up the informations", preferredStyle: UIAlertController.Style.alert)
-            
-            let okButton = UIAlertAction(title: "OK", style: UIAlertAction.Style.default)
-            
-            alert.addAction(okButton)
-            present(alert, animated: true)
-            
+            self.showAlert(title: "Error", message: "Please fill up the informations.") 
         }
-        
-       
     }
     
     @IBAction func deleteButtonPressed(_ sender: UIButton) {

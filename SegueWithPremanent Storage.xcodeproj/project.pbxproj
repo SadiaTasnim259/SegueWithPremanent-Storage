@@ -14,6 +14,7 @@
 		04854B8C29BF6E520069E3E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04854B8B29BF6E520069E3E9 /* Assets.xcassets */; };
 		04854B8F29BF6E520069E3E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04854B8D29BF6E520069E3E9 /* LaunchScreen.storyboard */; };
 		04854B9729BF700E0069E3E9 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04854B9629BF700E0069E3E9 /* SecondViewController.swift */; };
+		04EC863B29CAB34A0089AC95 /* AlertControlManager+VCExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EC863A29CAB34A0089AC95 /* AlertControlManager+VCExt.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		04854B8E29BF6E520069E3E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04854B9029BF6E520069E3E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04854B9629BF700E0069E3E9 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		04EC863A29CAB34A0089AC95 /* AlertControlManager+VCExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AlertControlManager+VCExt.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				04854B8B29BF6E520069E3E9 /* Assets.xcassets */,
 				04854B8D29BF6E520069E3E9 /* LaunchScreen.storyboard */,
 				04854B9029BF6E520069E3E9 /* Info.plist */,
+				04EC863A29CAB34A0089AC95 /* AlertControlManager+VCExt.swift */,
 			);
 			path = "SegueWithPremanent Storage";
 			sourceTree = "<group>";
@@ -142,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				04854B9729BF700E0069E3E9 /* SecondViewController.swift in Sources */,
+				04EC863B29CAB34A0089AC95 /* AlertControlManager+VCExt.swift in Sources */,
 				04854B8729BF6E500069E3E9 /* ViewController.swift in Sources */,
 				04854B8329BF6E500069E3E9 /* AppDelegate.swift in Sources */,
 				04854B8529BF6E500069E3E9 /* SceneDelegate.swift in Sources */,
